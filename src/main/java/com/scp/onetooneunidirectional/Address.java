@@ -28,10 +28,7 @@ public class Address {
 	@Column
 	private String name;
 	
-	/*@OneToOne(cascade=CascadeType.ALL)
-   //@PrimaryKeyJoinColumn
-    @JoinColumn
-    private Student student;*/
+	
 	
 	
 	public int getPin() {
